@@ -18,5 +18,12 @@
             "RockboxUtility.exe",
             "Rockbox Utility"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://download.rockbox.org/rbutil/win32/",
+        "regex": "RockboxUtility-v([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://download.rockbox.org/rbutil/win32/RockboxUtility-v$version.zip"
+    }
 }
